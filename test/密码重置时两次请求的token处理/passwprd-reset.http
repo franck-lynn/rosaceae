@@ -1,0 +1,15 @@
+
+### 
+# 第1次是输入邮箱, 注意, 最后一个json 不能有逗号
+POST http://localhost:3000/password-reset HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "zm@163.com"
+}
+
+###
+#
+GET  http://localhost:3000/password-reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwMGZmZmM1YmM4YmFiMTg0ODg0MTlmNSIsImlhdCI6MTYxNDU2MzgyMiwiZXhwIjoxNjE0NTY0NzIyfQ.sKgu0i3ns0Bf_CWCbA6LhSsLwzT4wcwJio_3U93B8d4 HTTP/1.1
+Content-Type: application/json
+

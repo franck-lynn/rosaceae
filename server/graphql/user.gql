@@ -1,0 +1,20 @@
+type User {
+    _id: ID!
+    name: String! 
+    # email: String! @isRole
+    email: String!
+    password: String!
+}
+
+type Token {
+    token: String
+}
+
+type Query {
+    queryUsers: [User]
+    queryLoginedUser(id: String!): User
+}
+
+type Mutation {
+    login(email: String!, password: String!): Token
+}

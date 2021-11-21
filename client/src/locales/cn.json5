@@ -1,0 +1,64 @@
+{
+    // for chinese
+    langs:{
+        language: "选择语言",
+        // 支持的语言:
+        cn: "简体中文",
+        gb: "英文",
+    },
+    index: {
+        // 首页欢迎词
+        welcome: "欢迎光临, 要使用本程序, 需要登录认证--这是首页展示页面, 可以做做广告",
+        index: "首页",
+        login: "登录",
+        register: "注册"
+    },
+    login: {
+        signin: "登录到小辣椒",
+        username: "用户名或者邮箱",
+        password: "密码",
+        forgot: "忘记密码?",
+        notMember: "没有注册?", 
+        createAccount: "注册一个账号",
+        rememberMe: "记住密码",
+    },
+    register: {
+        join: "加入小辣椒",
+        title: "创建您的账户",
+        name: "用户名",
+        email: "电子邮件地址",
+        password: "请输入密码",
+        passwordReadmeText: "确保至少15个字符或至少8个字符(包含数字和小写字母).",
+        passwordReadmeMore: "了解更多",
+        createAccount: "创建账户",
+    },
+    passwordReset: {
+        title: "密码重置",
+        readme: "输入您的用户帐户的已验证电子邮件地址，我们将向您发送密码重置链接.",
+        send: "发送密码重置链接邮件",
+    },
+    changePassword: {
+        title: "更改密码@:username",
+        changeButton: "更改密码",
+        comfirmPassword: "确认密码"
+    },
+    // 在 \src\validate\index.js 文件中进行验证的国际化
+    v: {
+        required: "{field} 字段需要",
+        email: "电子邮箱地址必须是有效的邮箱地址 email must be a valid email"
+    }
+    // msg: "中文",
+    // named: "{msg}中文", // 具名格式, <p>{{ t('named', { msg }) }}</p> 把标签里的 t('name') 用这里的替换, 其中, {msg} 用 msg: '中文替换'
+    // list: "{0} 中文!", // 列表格式, 用 [] 数组中的第几个替换  <p>{{ t('list', [msg]) }}</p>
+    // literal: "{'hello字面量'} 中文!!", // 字面量格式
+    // the_world: "中文!!!",
+    // dio: "DIO中文",
+    // linked: '@:dio @:the_world 中文！！！！',
+    // ar: '汽车',
+    // pple: '苹果',
+    // anana: '香蕉',
+    // 日期格式
+    // 时间日期格式
+    // urrent: '当前日期',
+   
+}

@@ -1,0 +1,10 @@
+### 登录请求
+POST http://localhost:3000/graphql HTTP/1.1
+Content-Type: application/json
+X-Request-Type: GraphQL
+
+mutation {
+    login(email: "zm@163.com", password: "aaaaaa"){
+        token
+    }
+}
